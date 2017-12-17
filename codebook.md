@@ -12,8 +12,8 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 ## Files included in GitHub repo: https://github.com/RolandTWTech/Getting-and-Cleaning-Data-Project
-* xData.csv: this includes the data from six original data files: subject data, activity type data and observation results data for both trials and testing.
-* tidyData.csv: this includes the mean of the observations in xData.csv grouped by subject and activity.
+* xData.txt: this includes the data from six original data files: subject data, activity type data and observation results data for both trials and testing.
+* tidyData.txt: this includes the mean of the observations in xData.csv grouped by subject and activity.
 
 ## Variables captured for each observation in xData.csv:
 These signals were used to estimate variables of the feature vector for each pattern:  
