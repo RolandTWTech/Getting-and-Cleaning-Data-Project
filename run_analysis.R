@@ -64,5 +64,5 @@
      byActSub <- group_by(xData, activity, subject)
      tidyData <- summarise_all(byActSub, mean)
      # write xData and tidy_data back to disk for future analysis
-     write.csv(tidyData, file = file.path(dFolder, "tidyData.csv"))
-     write.csv(xData, file = file.path(dFolder, "xData.csv"))
+     write.table(tidyData, file = file.path(dFolder, "tidyData.txt"), row.names = FALSE)
+     write.table(xData, file = file.path(dFolder, "xData.txt"), row.names = FALSE)
